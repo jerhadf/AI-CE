@@ -8,28 +8,28 @@
 
 	const exampleMessages = [
 		{
-			heading: 'Explain technical concepts',
-			message: `What is a "serverless function"?`
+			heading: 'Explain the theory',
+			message: `What is a metalinguistic negotiation?`
 		},
 		{
-			heading: 'Summarize an article',
-			message: 'Summarize the following article for a 2nd grader: \n'
+			heading: 'Identify defects',
+			message: 'Perform analysis on the concept <freedom> to identify defects: \n'
 		},
 		{
-			heading: 'Draft an email',
-			message: `Draft an email to my boss about the following: \n`
+			heading: 'Engineer a concept',
+			message: `Apply the full conceptual engineering process to <mental illness>: \n`
 		}
 	];
 </script>
 
 <div class="mx-auto max-w-2xl px-4">
 	<div class="rounded-lg border bg-background p-8">
-		<h1 class="mb-2 text-lg font-semibold">Welcome to SvelteKit AI Chatbot!</h1>
+		<h1 class="mb-2 text-lg font-semibold">Welcome to the AI conceptual engineer!</h1>
 		<p class="mb-2 leading-normal text-muted-foreground">
-			This is an open source AI chatbot app template built with
-			<ExternalLink href="https://kit.svelte.dev">SvelteKit</ExternalLink> and
-			<ExternalLink href="https://vercel.com/storage/kv">Vercel KV</ExternalLink>
-			.
+			This is an open source AI tool to aid with conceptual engineering, built with
+			<ExternalLink href="https://kit.svelte.dev">SvelteKit</ExternalLink>,
+			<ExternalLink href="https://vercel.com/storage/kv">Vercel KV</ExternalLink> and
+			<ExternalLink href="https://docs.smith.langchain.com/overview"> LangChain </ExternalLink>
 		</p>
 		<p class="leading-normal text-muted-foreground">
 			You can start a conversation here or try the following examples:
