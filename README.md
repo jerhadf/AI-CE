@@ -1,9 +1,9 @@
-<a href="https://sveltekit-ai-chatbot.vercel.app/">
-<h1 align="center">SvelteKit AI Chatbot</h1>
+<a href="https://ai-ce.vercel.app//">
+<h1 align="center">AI Conceptual Engineer </h1>
 </a>
 
 <p align="center">
-  An open-source AI chatbot app template built with SvelteKit, the Vercel AI SDK, OpenAI, and Vercel KV.
+  An open-source AI conceptual engineer built with SvelteKit, the Vercel AI SDK, OpenAI, LangChain and Vercel KV. It should help you analyze, understand, and engineer concepts, mainly using LLM prompting.
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 </p>
 <br/>
 
-This is an **unofficial** SvelteKit port of [vercel-labs/ai-chatbot](https://github.com/vercel-labs/ai-chatbot).
+This repository is built on an **unofficial** SvelteKit port of [vercel-labs/ai-chatbot](https://github.com/vercel-labs/ai-chatbot).
 
 ## Features
 
@@ -36,7 +36,7 @@ This template ships with OpenAI `gpt-3.5-turbo` as the default. However, thanks 
 
 ## Deploy Your Own
 
-You can deploy your own version of the Next.js AI Chatbot to Vercel with one click:
+You can deploy your own version of the AI Chatbot to Vercel with one click (but it will not have the AI conceptual engineering tooling):
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=sveltekit-chat&repository-url=https%3A%2F%2Fgithub.com%2Fjianyuan%2Fsveltekit-ai-chatbot&env=OPENAI_API_KEY,AUTH_SECRET,GITHUB_ID,GITHUB_SECRET&envDescription=How%20to%20get%20these%20env%20vars&envLink=https%3A%2F%2Fgithub.com%2Fjianyuan%2Fsveltekit-ai-chatbot%2Fblob%2Fmain%2F.env.example&demo-title=SvelteKit%20Chat&demo-description=A%20full-featured%2C%20hackable%20SvelteKit%20AI%20chatbot&demo-url=https%3A%2F%2Fsveltekit-ai-chatbot.vercel.app&stores=%5B%7B%22type%22:%22kv%22%7D%5D)
 

@@ -15,6 +15,15 @@
 	export let chats: Chat[];
 </script>
 
+<script lang="ts">
+	import { page } from '$app/stores';
+	// other imports...
+	import logo from '$app/assets/imaginaries-logo.png'; // adjust the path based on your logo file location
+</script>
+
+<header
+	class="sticky top-0 z-50 flex h-16 w-full shrink-0 items-center justify-between border-b bg-gradient-to-b from-background/10 via-background/50 to-background/80 px
+
 <header
 	class="sticky top-0 z-50 flex h-16 w-full shrink-0 items-center justify-between border-b bg-gradient-to-b from-background/10 via-background/50 to-background/80 px-4 backdrop-blur-xl"
 >
@@ -29,8 +38,7 @@
 			</Sidebar>
 		{:else}
 			<a href="/" target="_blank" rel="nofollow">
-				<IconSvelteChat class="mr-2 h-6 w-6 dark:hidden" inverted />
-				<IconSvelteChat class="mr-2 hidden h-6 w-6 dark:block" />
+				<img src={logo} alt="Logo" class="mr-2 h-6 w-6 dark:hidden" />
 			</a>
 		{/if}
 		<div class="flex items-center">
@@ -45,21 +53,12 @@
 	<div class="flex items-center justify-end space-x-2">
 		<a
 			target="_blank"
-			href="https://github.com/jianyuan/sveltekit-ai-chatbot"
+			href="https://github.com/jerhadf/AI-CE"
 			rel="noopener noreferrer"
 			class={cn(buttonVariants({ variant: 'outline' }))}
 		>
 			<IconGitHub />
 			<span class="ml-2 hidden md:flex">GitHub</span>
-		</a>
-		<a
-			href="https://github.com/jianyuan/sveltekit-ai-chatbot"
-			target="_blank"
-			class={cn(buttonVariants())}
-		>
-			<IconVercel class="mr-2" />
-			<span class="hidden sm:block">Deploy to Vercel</span>
-			<span class="sm:hidden">Deploy</span>
 		</a>
 	</div>
 </header>
