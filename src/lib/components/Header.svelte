@@ -11,21 +11,12 @@
 	import { IconGitHub, IconSeparator, IconSvelteChat, IconVercel } from '$lib/components/ui/icons';
 	import type { Chat } from '$lib/types';
 	import { cn } from '$lib/utils';
-
+	import logo from '$app/assets/imaginaries-logo.png'; // adjust the path based on your logo file location
 	export let chats: Chat[];
 </script>
 
-<script lang="ts">
-	import { page } from '$app/stores';
-	// other imports...
-	import logo from '$app/assets/imaginaries-logo.png'; // adjust the path based on your logo file location
-</script>
-
 <header
-	class="sticky top-0 z-50 flex h-16 w-full shrink-0 items-center justify-between border-b bg-gradient-to-b from-background/10 via-background/50 to-background/80 px
-
-<header
-	class="sticky top-0 z-50 flex h-16 w-full shrink-0 items-center justify-between border-b bg-gradient-to-b from-background/10 via-background/50 to-background/80 px-4 backdrop-blur-xl"
+class="sticky top-0 z-50 flex h-16 w-full shrink-0 items-center justify-between border-b bg-gradient-to-b from-background/10 via-background/50 to-background/80 px-4 backdrop-blur-xl"
 >
 	<div class="flex items-center">
 		{#if $page.data.session}
