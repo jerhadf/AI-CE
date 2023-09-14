@@ -8,7 +8,7 @@ export { default as IconExternalLink } from './IconExternalLink.svelte';
 export { default as IconGitHub } from './IconGitHub.svelte';
 export { default as IconMessage } from './IconMessage.svelte';
 export { default as IconMoon } from './IconMoon.svelte';
-export { default as IconOpenAI } from './IconOpenAI.svelte';
+export { default as IconAICE } from './IconAICE.svelte';
 export { default as IconPlus } from './IconPlus.svelte';
 export { default as IconRefresh } from './IconRefresh.svelte';
 export { default as IconSeparator } from './IconSeparator.svelte';
