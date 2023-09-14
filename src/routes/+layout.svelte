@@ -20,7 +20,7 @@
 </script>
 
 <svelte:head>
-	<title>SvelteKit AI Chatbot</title>
+	<title>AI Concept Engineer</title>
 </svelte:head>
 
 <TooltipProvider>
