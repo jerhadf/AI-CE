@@ -11,7 +11,6 @@
 	import { IconGitHub, IconSeparator, IconSvelteChat, IconVercel } from '$lib/components/ui/icons';
 	import type { Chat } from '$lib/types';
 	import { cn } from '$lib/utils';
-	import logo from '$app/assets/imaginaries-logo.png'; // adjust the path based on your logo file location
 	export let chats: Chat[];
 </script>
 
@@ -29,7 +28,7 @@ class="sticky top-0 z-50 flex h-16 w-full shrink-0 items-center justify-between 
 			</Sidebar>
 		{:else}
 			<a href="/" target="_blank" rel="nofollow">
-				<img src={logo} alt="Logo" class="mr-2 h-6 w-6 dark:hidden" />
+				<img src="/static/AI_CE_logo_2.png" alt="Logo" class="mr-2 h-6 w-6 dark:hidden" />
 			</a>
 		{/if}
 		<div class="flex items-center">
