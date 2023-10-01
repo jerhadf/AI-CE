@@ -15,10 +15,7 @@
 </p>
 <br/>
 
-This repository is built on an **unofficial** SvelteKit port of [vercel-labs/ai-chatbot](https://github.com/vercel-labs/ai-chatbot).
-
 ## Features
-
 - [SvelteKit](https://kit.svelte.dev)
 - [Vercel AI SDK](https://sdk.vercel.ai/docs) for streaming chat UI
 - Support for OpenAI (default), Anthropic, HuggingFace, or custom AI chat models and/or LangChain
@@ -67,7 +64,6 @@ npm run dev -- --open
 Your app template should now be running on [localhost:5173](http://localhost:5173/).
 
 ## Authors
-
-This template is heavily based on the [Next.js version](https://github.com/vercel-labs/ai-chatbot), with contributions from:
-
+- Jeremy Hadfield (AI tooling, major infrastructure changes) 
+This template is similar to the [Next.js version](https://github.com/vercel-labs/ai-chatbot), with contributions from:
 - Jian Yuan Lee ([@jyuan](https://twitter.com/jyuan))
