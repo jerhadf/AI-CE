@@ -64,6 +64,7 @@ npm run dev -- --open
 Your app template should now be running on [localhost:5173](http://localhost:5173/).
 
 ## Authors
-- Jeremy Hadfield (AI tooling, major infrastructure changes) 
+- Jeremy Hadfield (AI tooling, major infrastructure changes), switch to LangChain & Svelte, prompt engineering
+
 This template is similar to the [Next.js version](https://github.com/vercel-labs/ai-chatbot), with contributions from:
 - Jian Yuan Lee ([@jyuan](https://twitter.com/jyuan))
